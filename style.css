@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main-div{
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.left-part{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    position: relative;
+}
+
+.nav-bar{
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    font-size: medium;
+    font-weight: 600;
+}
+
+ri-arrow-left-line::before{
+    content:\easc;
+    font-size: x large;
+}
+.left-nav-items a{
+    /* margin-left: 20px; */
+    text-decoration: none;
+    color: #000;
+    font-weight: 500; 
+    font-size: 14px;  
+    margin-right: 20px;
+}
+
+.left-nav-items{
+    display: flex;
+    
+}
+.left-nav-items i{
+    color: red;
+    font-size: medium;
+}
+
+.left-text-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.left-text-center h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.left-text-center p{
+   opacity: .8;
+   font-size: medium;
+   font-weight: bolder;
+   line-height: 20px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+   padding-bottom: 10px;
+}
+
+
+.left-text-center a{
+    text-decoration: none;
+    color: black;
+    /* border-bottom: 1px solid #000;
+    padding-bottom: 5px; */
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    font-weight: 900;
+    font-style: italic;
+    opacity: .6;
+}
+
+.right-part{
+    width: 50%;
+    height: 100%;
+    /* background-color: white; */
+}
+
+.right-top{
+    width: 100%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+}
+
+.right-bottom{
+    width: 100%;
+    height: 50%;
+    background-color: blue;
+    background-image: url(https://vehicle.img.symfio.de/1600x,q90/vehicle/H6UK4b/5dee57039fc339346b7341c3/5f45ff2f061281.82075785.jpeg);
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+
+.right-top-left{
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    background-image: url(https://th.bing.com/th/id/OIP.Kn9YZEg9XDr0SZYnopGHQgHaHa?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    background-position:center
+}
+
+.right-top-right{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(192, 14, 112);
+    background-image: url(https://www.carscoops.com/wp-content/uploads/2019/11/2021-Mercedes-Maybach-GLS-600-4MATIC-25-400x267.jpg);
+    background-position: center;
+}
+
